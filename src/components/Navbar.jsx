@@ -4,10 +4,32 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll';
+import resume from '../assets/resume email.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+        const handleDownload = () => {
+          const link = document.createElement('a');
+          link.href = resume;
+          link.download = 'resume.pdf';
+          link.click();
+        };
+    const [copied, setCopied] = useState(false);
+
+    const handleEmailClick = (event) => {
+          event.preventDefault();
+          const email = event.target.href;
+          navigator.clipboard.writeText(email);
+          setCopied(true);
+          setTimeout(() => {
+            setCopied(false);
+          }, 2000);
+        };
+    let emailText = 'Email';
+    if (copied) {
+          emailText = 'Email Copied to Clipboard';
+    }
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
         <div>
@@ -88,10 +110,13 @@ const Navbar = () => {
                     <a className='flex justify-between items-center w-full text-gray-300'  target="_blank" href="https://github.com/Kartik-Chaurasiya">GitHub <FaGithub size={30}  /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500'>
-                    <a className='flex justify-between items-center w-full text-gray-300'  target="_blank" href="kartikjchourasiya001@gmail.com">Emsil <HiOutlineMail size={30}  /></a>
+                    <a 
+                    href="kartikjchourasiya001@gmail.com"
+                    onClick={handleEmailClick}
+                    className='flex justify-between items-center w-full text-gray-300'>{emailText} <HiOutlineMail size={30}  /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300'  target="_blank" href="/">Resume <BsFillPersonLinesFill size={30}  /></a>
+                    <a onClick={handleDownload} className='flex justify-between items-center w-full text-gray-300' href="/">Resume <BsFillPersonLinesFill size={30}  /></a>
                 </li>
             </ul>
         </div>
