@@ -38,50 +38,50 @@ const Project = () => {
         </div>
         <div className="card_pro">
             <div className="content">
-            <p className="copy">A full stack way of making data science project and dashboard.</p>
+            <p className="copy">Streamlit: A full stack way of making data science project and dashboard.</p>
             <a href="https://share.streamlit.io/kartik-chaurasiya/amazing_streamlit_pro/main/web_app.py"><button className="btn">Project Link</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Mountain View</h2>
-            <p className="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title"></h2>
+            <p className="copy">Traffic signal Classifier: A deep learning approach for traffic sign Recognition</p>
+            <a href="https://github.com/Kartik-Chaurasiya/Traffic-Sign-Recognition"><button className="btn">Project Link</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">To The Beach</h2>
-            <p className="copy">Plan your next beach trip with these fabulous destinations</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title">Comming Soon</h2>
+            <p className="copy">More projects on GitHub</p>
+            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Desert Destinations</h2>
-            <p className="copy">It's the desert you've always dreamed of</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title">Comming Soon</h2>
+            <p className="copy">More projects on GitHub</p>
+            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Explore The Galaxy</h2>
-            <p className="copy">Seriously, straight up, just blast off into outer space today</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title">Comming Soon</h2>
+            <p className="copy">More projects on GitHub</p>
+            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Desert Destinations</h2>
-            <p className="copy">It's the desert you've always dreamed of</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title">Comming Soon</h2>
+            <p className="copy">More projects on GitHub</p>
+            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Explore The Galaxy</h2>
-            <p className="copy">Seriously, straight up, just blast off into outer space today</p>
-            <button className="btn">GitHub</button>
+            <h2 className="title">Comming Soon</h2>
+            <p className="copy">More projects on GitHub</p>
+            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
             </div>
         </div>
         </main>
