@@ -85,10 +85,10 @@
   background-image: url(https://media.istockphoto.com/id/1318764563/vector/various-emotions-and-facial-expressions-of-one-person.jpg?s=612x612&w=0&k=20&c=uEyEg_yXC_hhLWX39Be1cusvflt3-0YPhkxNl0C83DE=);
 }
 .card_pro:nth-child(2):before {
-  background-image: url(https://www.insidehighered.com/sites/default/files/media/GettyImages-1198430065.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9fInAHIiclCqYtPAwAbSJo12k45itNiTOQ&usqp=CAU);
 }
 .card_pro:nth-child(3):before {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9fInAHIiclCqYtPAwAbSJo12k45itNiTOQ&usqp=CAU);
+  background-image: url(https://www.insidehighered.com/sites/default/files/media/GettyImages-1198430065.jpg);
 }
 .card_pro:nth-child(4):before {
   background-image: url(https://img-c.udemycdn.com/course/750x422/5110688_e61a_2.jpg);

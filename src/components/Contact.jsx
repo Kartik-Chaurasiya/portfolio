@@ -50,7 +50,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - kartikjchourasiya001@gmail.com</p>
+                <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - kartikjchaurasiya@gmail.com</p>
             </div>
             <input type="text"
               value={name}

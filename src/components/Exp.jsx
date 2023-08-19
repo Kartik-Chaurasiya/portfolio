@@ -15,7 +15,7 @@ const Exp = () => {
 			</div>
 
 			<div className="cd-timeline-content">
-				<h2>Bachelor's in Computer Science</h2>
+				<h2>🎓 Bachelor's in Computer Science</h2>
         <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -42,7 +42,7 @@ const Exp = () => {
 			</div> 
 
 			<div className="cd-timeline-content">
-				<h2>Software Engineer Intern</h2>
+				<h2>💼 Software Engineer Intern</h2>
                     <div className="timeline-content-info">
             <span className="timeline-content-info-title">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -72,7 +72,7 @@ const Exp = () => {
 			</div> 
 
 			<div className="cd-timeline-content">
-				<h2>Data Analytics Intern</h2>
+				<h2>💼 Data Analytics Intern</h2>
                 <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -99,7 +99,7 @@ const Exp = () => {
 			</div> 
 
 			<div className="cd-timeline-content">
-				<h2>Software Engineer</h2>
+				<h2>💼 Software Engineer</h2>
                 <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -123,12 +123,37 @@ const Exp = () => {
 			</div> 
 		</div> 
 
+    <div className="cd-timeline-block">
+			<div className="cd-timeline-img cd-location">
+			</div> 
+
+			<div className="cd-timeline-content">
+				<h2>🎓 Data Science Master's</h2>
+                <div className="timeline-content-info">
+          <span className="timeline-content-info-title">
+            <i className="fa fa-certificate" aria-hidden="true"></i>
+            Georgia State University
+          </span>
+          <span className="timeline-content-info-date">
+            <i className="fa fa-calendar-o" aria-hidden="true"></i>
+            Aug 2022 - Present
+          </span>
+        </div>
+				<p>Georgia State University:
+          My time at Georgia State University has been an exhilarating voyage into Data Science. 
+          Pursuing a Master's degree in Data Science, I've immersed myself in cutting-edge technologies 
+          and methodologies that underpin the world of data-driven insights.
+        </p>
+				{/* <span className="cd-date">Feb 18</span> */}
+			</div> 
+		</div> 
+
 		<div className="cd-timeline-block">
 			<div className="cd-timeline-img cd-location">
 			</div> 
 
 			<div className="cd-timeline-content">
-				<h2>Graduate Research Assistant</h2>
+				<h2>🔬 Graduate Research Assistant</h2>
                 <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>

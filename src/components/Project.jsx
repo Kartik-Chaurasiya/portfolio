@@ -23,17 +23,17 @@ const Project = () => {
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">Attendance System</h2>
-            <p className="copy">An attendance management system is a cloud-based HR tech tool that enables 
-            schools to automate their attendance management operations and keep track of students.</p>
-            <a href="https://github.com/Kartik-Chaurasiya/Attendance_system"><button className="btn">GitHub</button></a>
+            <h2 className="title">ToDo Api Project</h2>
+            <p className="copy">Api for a todo project create user add or delete or update todo's for the user.</p>
+            <a href="https://github.com/Kartik-Chaurasiya/Todo-Api"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
             <div className="content">
-            <h2 className="title">ToDo Api Project</h2>
-            <p className="copy">Api for a todo project create user add or delete or update todo's for the user.</p>
-            <a href="https://github.com/Kartik-Chaurasiya/test-fastapi"><button className="btn">GitHub</button></a>
+            <h2 className="title">Attendance System</h2>
+            <p className="copy">An attendance management system is a cloud-based HR tech tool that enables 
+            schools to automate their attendance management operations and keep track of students.</p>
+            <a href="https://github.com/Kartik-Chaurasiya/Attendance_system"><button className="btn">GitHub</button></a>
             </div>
         </div>
         <div className="card_pro">
