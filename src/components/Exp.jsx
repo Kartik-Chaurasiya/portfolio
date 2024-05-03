@@ -42,84 +42,39 @@ const Exp = () => {
 			</div> 
 
 			<div className="cd-timeline-content">
-				<h2>💼 Software Engineer Intern</h2>
+				<h2>💼 Data Scientist</h2>
                     <div className="timeline-content-info">
             <span className="timeline-content-info-title">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
-                Vistaar Digital Communications
+                Intex Technologies
             </span>
             <span className="timeline-content-info-date">
                 <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                June 2018 - July 2018
+                Jan 2020 - July 2022
             </span>
             </div>
-				<p>Utilized the Cobalt framework to design and develop mobile applications, ensuring seamless user experiences and high-performance functionalities.
-
-          Demonstrated strong expertise in front-end web technologies, including HTML, CSS, and JavaScript, to implement responsive and visually appealing interfaces for the mobile applications.</p>
+				<p>
+          Designed a statistical model to evaluate marketing campaign effectiveness, optimizing ad spending
+        and increasing ROI by 35%.
+          Automated data cleaning and preprocessing pipelines, saving over 200 hours of manual data
+        preparation time per month.
+          Led the integration of AI and ML technologies into product development, shortening the innovation
+        cycle by 30%.
+          Developed a machine learning model that predicted customer churn with 90% accuracy, reducing
+        churn by 15% within the first year.
+          Analyzed user behavior in a digital platform, which informed UI/UX improvements that increased
+        conversion by 15%.
+          Conducted complex data analyses influencing strategic decisions, leading to a 25% market share
+        increase
+        </p>
 				{/* <span className="cd-date">Jan 18</span> */}
         <ul className="content-skills">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Cobalt Framework</li>
+        <li>Python</li>
+        <li>API</li>
+        <li>Tensorflow</li>
+        <li>Web Scraping</li>
+        <li>NLP</li>
         </ul>
-			</div> 
-		</div> 
-
-		<div className="cd-timeline-block">
-			<div className="cd-timeline-img cd-picture">
-			</div> 
-
-			<div className="cd-timeline-content">
-				<h2>💼 Data Analytics Intern</h2>
-                <div className="timeline-content-info">
-          <span className="timeline-content-info-title">
-            <i className="fa fa-certificate" aria-hidden="true"></i>
-            Vistaar Digital Communications
-          </span>
-          <span className="timeline-content-info-date">
-            <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            Dec 2020 - Jan 2021
-          </span>
-        </div>
-				<p>Built visualizations using visualization tools such as Tableau and Matplotlib to
-          communicate insights from data.
-          Adept at working with databases and have experience in data manipulation and
-          extraction.
-          Detected outliers and build models using programming languages such as R
-          and Python.
-          Hands-on experience with Python libraries such as Pandas, NumPy, and Scikit learn</p>
-				{/* <span className="cd-date">Jan 24</span> */}
-			</div> 
-		</div> 
-
-		<div className="cd-timeline-block">
-			<div className="cd-timeline-img cd-location">
-			</div> 
-
-			<div className="cd-timeline-content">
-				<h2>💼 Software Engineer</h2>
-                <div className="timeline-content-info">
-          <span className="timeline-content-info-title">
-            <i className="fa fa-certificate" aria-hidden="true"></i>
-            Kredence Digital Resources
-          </span>
-          <span className="timeline-content-info-date">
-            <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            Nov 2021 - May 2022
-          </span>
-        </div>
-				<p>Built a project and resource management website using Laravel with PHP for
-          the backend and React for the front end.
-          Competent in utilizing databases and caching systems for performance
-          optimization and improved user experience.
-          Adept at developing and deploying RESTful APIs and microservices.
-          Strong understanding of software engineering best practices such as
-          continuous integration, testing, and security.
-          Implemented an MYSQL-based database for the project, optimized for fast data
-          retrieval and analytics.</p>
-				{/* <span className="cd-date">Feb 14</span> */}
 			</div> 
 		</div> 
 
@@ -136,7 +91,7 @@ const Exp = () => {
           </span>
           <span className="timeline-content-info-date">
             <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            Aug 2022 - Present
+            Aug 2022 - May 2024
           </span>
         </div>
 				<p>Georgia State University:
@@ -161,15 +116,50 @@ const Exp = () => {
           </span>
           <span className="timeline-content-info-date">
             <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            Jan 2023 - Present
+            Jan 2023 - Aug 2023
           </span>
         </div>
-				<p>A study of filaments and solar flare activities was conducted in order to detect
-        the occurrence of solar flares.
-        Developed methods for retrieving images from the GONG satellite network.
-        Analyzed the sampling data from each satellite and created visualizations.
-        Carried out annotations on satellite images and information retrieval from the v7
-        annotation web page utilizing APIs.
+				<p>
+          Developed a pipeline of containerized modules for pre-processing of image data.
+          Compared performance of different DNN algorithms (e.g., UNet, UNet++, Mask-RCNN) in terms of segmentation
+          granularity.
+          Dockerized the best model (Mask R-CNN) on the lab's server to feed the front end (www.gonghalphaviewer.com).
+        </p>
+				{/* <span className="cd-date">Feb 18</span> */}
+			</div> 
+		</div> 
+
+    <div className="cd-timeline-block">
+			<div className="cd-timeline-img cd-location">
+			</div> 
+
+			<div className="cd-timeline-content">
+				<h2>💼 Data Scientist</h2>
+                <div className="timeline-content-info">
+          <span className="timeline-content-info-title">
+            <i className="fa fa-certificate" aria-hidden="true"></i>
+            Northern Trust - USA
+          </span>
+          <span className="timeline-content-info-date">
+            <i className="fa fa-calendar-o" aria-hidden="true"></i>
+            Aug 2023 - Present
+          </span>
+        </div>
+				<p>
+        Utilized ensemble learning techniques to improve the accuracy of predictive models by 15% over
+        single-model approaches.
+        Created a forecasting model for sales and demand, improving forecast accuracy by 20% and
+        assisting in strategic planning.
+        Designed a sentiment analysis model to monitor brand reputation in real-time, reducing negative
+        feedback by 25%.
+        Utilized unsupervised learning to uncover new customer segments, driving a targeted marketing
+        strategy that increased sales by 12%.
+        Created a forecasting tool for seasonal businesses, improving inventory management and reducing
+        waste by 25%.
+        Implemented a machine learning model to analyze satellite imagery, aiding environmental
+        monitoring and conservation efforts.
+        Developed an optimization model for route planning, improving delivery times by 25% for a
+        logistics company.
         </p>
 				{/* <span className="cd-date">Feb 18</span> */}
 			</div> 
