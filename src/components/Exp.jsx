@@ -28,11 +28,13 @@ const Exp = () => {
         </div>
 				<p>I commenced my Bachelor's degree in Computer Science Engineering in 2017 at Universal College of Engineering. This pivotal period marked the beginning of my academic journey, where I acquired a comprehensive understanding of the fundamental principles and concepts of computer science.</p>
         <ul className="content-skills">
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li>Python</li>
         <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Wordpress</li>
+        <li>Web Dev</li>
+        <li>Algorithms</li>
+        <li>Databases</li>
+        <li>Networking</li>
+        <li>Machine Learning</li>
         </ul>
 			</div> 
 		</div> 
@@ -54,26 +56,20 @@ const Exp = () => {
             </span>
             </div>
 				<p>
-          Designed a statistical model to evaluate marketing campaign effectiveness, optimizing ad spending
-        and increasing ROI by 35%.
-          Automated data cleaning and preprocessing pipelines, saving over 200 hours of manual data
-        preparation time per month.
-          Led the integration of AI and ML technologies into product development, shortening the innovation
-        cycle by 30%.
-          Developed a machine learning model that predicted customer churn with 90% accuracy, reducing
-        churn by 15% within the first year.
-          Analyzed user behavior in a digital platform, which informed UI/UX improvements that increased
-        conversion by 15%.
-          Conducted complex data analyses influencing strategic decisions, leading to a 25% market share
-        increase
+        Innovated marketing strategies through a statistical model, elevating ROI by 35%. 
+        Streamlined operations by automating data preprocessing, saving over 200 hours monthly. 
+        Spearheaded AI and ML integration, accelerating product development by 30%. 
+        Developed a predictive model reducing customer churn by 15% and enhanced UI/UX 
+        based on behavioral analysis, driving a 15% increase in conversion rates
         </p>
 				{/* <span className="cd-date">Jan 18</span> */}
         <ul className="content-skills">
         <li>Python</li>
         <li>API</li>
-        <li>Tensorflow</li>
+        <li>Data Automation</li>
         <li>Web Scraping</li>
-        <li>NLP</li>
+        <li>Statistical Modeling</li>
+        <li>AI/ML Integration</li>
         </ul>
 			</div> 
 		</div> 
@@ -100,6 +96,12 @@ const Exp = () => {
           and methodologies that underpin the world of data-driven insights.
         </p>
 				{/* <span className="cd-date">Feb 18</span> */}
+        <ul className="content-skills">
+        <li>Python</li>
+        <li>Data Mining</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        </ul>
 			</div> 
 		</div> 
 
@@ -126,6 +128,12 @@ const Exp = () => {
           Dockerized the best model (Mask R-CNN) on the lab's server to feed the front end (www.gonghalphaviewer.com).
         </p>
 				{/* <span className="cd-date">Feb 18</span> */}
+        <ul className="content-skills">
+        <li>API</li>
+        <li>Neural Networks</li>
+        <li>Docker</li>
+        <li>Server Deployment</li>
+        </ul>
 			</div> 
 		</div> 
 
@@ -146,22 +154,21 @@ const Exp = () => {
           </span>
         </div>
 				<p>
-        Utilized ensemble learning techniques to improve the accuracy of predictive models by 15% over
-        single-model approaches.
-        Created a forecasting model for sales and demand, improving forecast accuracy by 20% and
-        assisting in strategic planning.
-        Designed a sentiment analysis model to monitor brand reputation in real-time, reducing negative
-        feedback by 25%.
-        Utilized unsupervised learning to uncover new customer segments, driving a targeted marketing
-        strategy that increased sales by 12%.
-        Created a forecasting tool for seasonal businesses, improving inventory management and reducing
-        waste by 25%.
-        Implemented a machine learning model to analyze satellite imagery, aiding environmental
-        monitoring and conservation efforts.
-        Developed an optimization model for route planning, improving delivery times by 25% for a
-        logistics company.
+        I specialize in applying advanced machine learning techniques to solve real-world challenges. 
+        My expertise includes developing forecasting models that significantly improve accuracy, 
+        designing sentiment analysis algorithms to enhance brand reputation, and utilizing 
+        unsupervised learning to identify new customer segments. Additionally, 
+        I have experience in implementing machine learning models for diverse applications such as 
+        environmental monitoring and logistics optimization.
         </p>
 				{/* <span className="cd-date">Feb 18</span> */}
+        
+        <ul className="content-skills">
+        <li>Ensemble Learning</li>
+        <li>Sentiment Analysis</li>
+        <li>Unsupervised Learning</li>
+        <li>Tensorflow & Pytorch</li>
+        </ul>
 			</div> 
 		</div> 
 	</section> 
