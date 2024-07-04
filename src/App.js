@@ -6,7 +6,7 @@ import {Project} from "./components/Project";
 import Exp from "./components/Exp";
 import Contact from "./components/Contact";
 import {Footer_comp} from "./components/Footer_comp";
-import {projects, skills, certifications, courses} from "./assets/data";
+import {projects, skills, certifications, courses, papers} from "./assets/data";
 import {Certifications} from "./components/Certifications";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Home />
       <About />
       <Skills categorizedSkills={skills} />
-      <Certifications certifications={certifications} courses={courses} />
+      <Certifications certifications={certifications} courses={courses} papers={papers} />
       <Project categorizedProjects={projects} />
       <Exp />
       <Contact />

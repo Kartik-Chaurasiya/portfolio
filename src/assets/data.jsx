@@ -128,6 +128,19 @@ const skills = {
       link: "https://example.com/course/advanced-nodejs"
     }
   ];
+
+  const papers = [
+    {
+      name: "React Fundamentals",
+      date: "January 2024",
+      link: "https://example.com/course/react-fundamentals"
+    },
+    {
+      name: "Advanced Node.js",
+      date: "November 2023",
+      link: "https://example.com/course/advanced-nodejs"
+    }
+  ];
   
-  export { skills, projects, certifications, courses};
+  export { skills, projects, certifications, courses, papers};
   
