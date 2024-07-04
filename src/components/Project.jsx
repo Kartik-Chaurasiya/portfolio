@@ -1,93 +1,41 @@
-import React from 'react'
-import '../assets/project.css';
+import React from "react";
+import { Tabs, Card } from "flowbite-react";
 
-const Project = () => {
+export function Project({ categorizedProjects = {} }) {
   return (
-    
-    <div name="project"  className='w-full h-full bg-[#0a192f] text-gray-300'>
-        <div className='max-w-[1500px] mx-auto p-1 justify-center w-full h-full'>
+    <div name="project" className="py-10 w-full h-full bg-[#0a192f] text-gray-300">
         <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Project</p>
               <p className='py-4'>These are the Projects I've worked on</p>
           </div>
-        <main className="page-content">
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Emotune</h2>
-            <p className="copy">Developed a music player mobile App that generates playlists by reading the
-            emotions of the user from their selfie; Built the app using Flutter SDK and used
-            Firebase for the backend.
-            </p>
-            <a href="https://github.com/Kartik-Chaurasiya/Emotune"><button className="btn">GitHub</button></a>
+      <div className="pl-20 pr-10">
+      <Tabs aria-label="Projects Tabs" variant="pills">
+        {Object.entries(categorizedProjects).map(([category, projects], index) => (
+          <Tabs.Item key={index} active={index === 0} title={category}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {projects.map((project, index) => (
+                <Card
+                  key={index}
+                  className="max-w-sm"
+                  imgAlt={`Image for ${project.name}`}
+                  imgSrc={project.imgSrc}
+                >
+                  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    {project.name}
+                  </h5>
+                  <p className="font-normal text-gray-700 dark:text-gray-400">
+                    {project.description}
+                  </p>
+                  <a href={project.link} className="text-blue-500 hover:underline">
+                    {project.link}
+                  </a>
+                </Card>
+              ))}
             </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">ToDo Api Project</h2>
-            <p className="copy">Api for a todo project create user add or delete or update todo's for the user.</p>
-            <a href="https://github.com/Kartik-Chaurasiya/Todo-Api"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Attendance System</h2>
-            <p className="copy">An attendance management system is a cloud-based HR tech tool that enables 
-            schools to automate their attendance management operations and keep track of students.</p>
-            <a href="https://github.com/Kartik-Chaurasiya/Attendance_system"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <p className="copy">Streamlit: A full stack way of making data science project and dashboard.</p>
-            <a href="https://share.streamlit.io/kartik-chaurasiya/amazing_streamlit_pro/main/web_app.py"><button className="btn">Project Link</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title"></h2>
-            <p className="copy">Traffic signal Classifier: A deep learning approach for traffic sign Recognition</p>
-            <a href="https://github.com/Kartik-Chaurasiya/Traffic-Sign-Recognition"><button className="btn">Project Link</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Comming Soon</h2>
-            <p className="copy">More projects on GitHub</p>
-            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Comming Soon</h2>
-            <p className="copy">More projects on GitHub</p>
-            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Comming Soon</h2>
-            <p className="copy">More projects on GitHub</p>
-            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Comming Soon</h2>
-            <p className="copy">More projects on GitHub</p>
-            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        <div className="card_pro">
-            <div className="content">
-            <h2 className="title">Comming Soon</h2>
-            <p className="copy">More projects on GitHub</p>
-            <a href="https://github.com/Kartik-Chaurasiya"><button className="btn">GitHub</button></a>
-            </div>
-        </div>
-        </main>
-        </div>
+          </Tabs.Item>
+        ))}
+      </Tabs>
+      </div>
     </div>
-  )
+  );
 }
-
-export default Project
