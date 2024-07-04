@@ -50,7 +50,7 @@ const skills = {
       {
         name: "Master's Thesis - Filament segmentation in Solar Observations",
         description: "A project to segment filaments in solar observations using deep learning.",
-        link: "https://example.com/stock-price-prediction",
+        link: "https://github.com/Kartik-Chaurasiya/AML_Project",
         imgSrc: "https://aasnova.org/wp-content/uploads/2019/04/fig1-9.jpg",
         technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "PyTorch", "Docker", "Unet", "Mask RCNN"]
       },

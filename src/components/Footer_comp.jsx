@@ -1,16 +1,11 @@
 import {
   Footer,
-  FooterBrand,
   FooterCopyright,
   FooterDivider,
   FooterIcon,
-  FooterLink,
-  FooterLinkGroup,
-  FooterTitle,
 } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import React from "react";
-import Logo from '../assets/logo.png'
 
 export function Footer_comp() {
   return (
