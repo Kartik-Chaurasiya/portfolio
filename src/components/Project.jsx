@@ -26,9 +26,19 @@ export function Project({ categorizedProjects = {} }) {
                   <p className="font-normal text-gray-700 dark:text-gray-400">
                     {project.description}
                   </p>
-                  <a href={project.link} className="text-blue-500 hover:underline">
+                  <a href={project.link} className="text-blue-500 hover:underline break-words">
                     {project.link}
                   </a>
+                  <div className="mt-4">
+                    <h6 className="text-xl font-semibold text-gray-900 dark:text-white">Technologies</h6>
+                    <div className="flex flex-wrap mt-2">
+                      {project.technologies.map((tech, index) => (
+                        <span key={index} className="bg-gray-200 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300 mb-2">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </Card>
               ))}
             </div>

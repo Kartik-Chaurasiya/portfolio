@@ -17,11 +17,12 @@ const About = () => {
                 <p>Hi. I'm Kartik, nice to meet you. Please take a look around.</p>
               </div>
               <div>
-                <p className='text-xl'>My love for data stems from its inherent ability to reveal valuable insights and drive informed decision-making. With a strong 
-                  academic background and practical experience, I am adept at extracting meaningful patterns from complex datasets. I am driven by 
-                  a curiosity to explore new frontiers in data science and embrace innovative approaches to problem-solving. Through continuous 
-                  learning and staying updated with the latest advancements, I am committed to delivering impactful solutions that make a
-                   difference. Let's collaborate and harness the power of data to unlock a world of possibilities.</p>  
+                <p className='text-xl'>Certified Data Scientist known for creating machine learning models and data-driven insights that provide
+                  a competitive edge. With 3+ years of experience, skilled in predictive modeling and data interpretation.
+                  Dedicated to delivering insights that drive data-informed strategies and improved business performance
+                  Detail oriented Data Scientist specializing in natural language processing and text mining. Proficient in
+                  sentiment analysis, chatbot development, and extracting valuable information from unstructured text data
+                  Data Scientist committed to enhancing data-driven real estate strategies</p>  
               </div>
             </div>
         </div>
