@@ -133,9 +133,13 @@ const skills = {
   ];
 
   const papers = [
-    
     {
-      name: "A Statistical Anomaly Detection Algorithm for GONG’s H-Alpha Observations",
+      name: "Scientific Reports - Manual Annotation of Scientific Images: How to Prepare for Large Projects -  #SDATA-24-01811",
+      date: "July 2024",
+      link: "#"
+    },
+    {
+      name: "Poster SWW 24 - A Statistical Anomaly Detection Algorithm for GONG’s H-Alpha Observations",
       date: "April 2024",
       link: "https://drive.google.com/file/d/1TEpR7NJ3P9IQkWOZZQvQOT-RYVDl3GUg/view?usp=sharing"
     },
