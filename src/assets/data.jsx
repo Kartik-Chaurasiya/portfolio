@@ -76,12 +76,21 @@ const skills = {
         technologies: ["Python", "TensorFlow", "scikit-learn", "Prophet", "ARIMA", "LSTM", "Streamlit"]
       }
     ],
+    "Data Engeenering": [
+      {
+        name: "Uber Data Engineering Project",
+        description: "This project demonstrates an end-to-end data engineering pipeline using Google Cloud Platform (GCP) services, Mage AI for ETL processes, and Looker Studio for data visualization. The pipeline processes and analyzes Uber trip data.",
+        link: "https://github.com/Kartik-Chaurasiya/Uber-Data-Analysis",
+        imgSrc: "https://i.ibb.co/gPy3s8g/uber.png",
+        technologies: ["Python", "SQL", "GCP", "MageAI", "Looker Studio", "BigQuery", "Dataflow", "Cloud Storage"]
+      }
+    ],
     "Web Development": [
       {
         name: "Charity - A Charity Website",
         description: "A website for a charity organization built with React",
-        link: "https://example.com/portfolio",
-        imgSrc: "https://media.licdn.com/dms/image/C4D12AQEnQIOpQeDHwQ/article-cover_image-shrink_720_1280/0/1619521100922?e=2147483647&v=beta&t=HrIyO8_o8j_biGarWf1zpCJPNz4b8wQKUxUa6x8ru_8",
+        link: "https://jannat-welfare.netlify.app/",
+        imgSrc: "https://i.ibb.co/hWHvt5x/charity.png",
         technologies: ["React", "Tailwind CSS", "Netlify"]
       },
       {
